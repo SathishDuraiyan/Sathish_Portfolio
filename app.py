@@ -102,7 +102,7 @@ if selected == "Acedemics":
 
 if selected == "Resume":
     # Open the PDF file in binary mode
-    with open("asset/Sathish-D_Resume.pdf", "rb") as pdf_file:
+    with open("asset/SathishDuraiyanResume.pdf", "rb") as pdf_file:
         # Read the PDF file and encode it in base64
         base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
     
